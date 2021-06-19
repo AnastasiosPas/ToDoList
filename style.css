@@ -1,0 +1,18 @@
+body {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  background: rgba(138, 115, 243, 0.445);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+#planner {
+  padding: 10px;
+  border: 10px solid rgba(0, 0, 255, 0.493);
+  border-radius: 15px;
+}
+
+.done {
+  text-decoration: line-through;
+}

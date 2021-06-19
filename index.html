@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript + DOM</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="planner">
+		<h1>Shopping List</h1>
+		<p id="first">Get it done today</p>
+		<input id="userinput" type="text" placeholder="enter items">
+		<button id="enter">Enter</button>
+		<br>
+		<h5>Please add, delete and click on your tasks </h5>
+		<h5>to cross them out!</h5>
+		<ul>
+			<li class="firstButtons">Task 1<button onclick="parentNode.remove();" class="del">Delete</button></li>
+			<li class="firstButtons">Task 2<button onclick="parentNode.remove();" class="del">Delete</button></li>
+			<li class="firstButtons">Task 3<button onclick="parentNode.remove();" class="del">Delete</button></li>
+			<li class="firstButtons">Task 4<button onclick="parentNode.remove();" class="del">Delete</button></li>
+			<li class="firstButtons">Task 5<button onclick="parentNode.remove();" class="del">Delete</button></li>
+			<li class="firstButtons">Task 6<button onclick="parentNode.remove();" class="del">Delete</button></li>
+		</ul>
+	</div>	
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
