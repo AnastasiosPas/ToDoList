@@ -2,7 +2,7 @@ body {
   display: grid;
   justify-content: center;
   align-content: center;
-  background: rgba(138, 115, 243, 0.445);
+  background: linear-gradient(0deg, rgb(248, 143, 30), rgb(255, 255, 0));
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
 }
